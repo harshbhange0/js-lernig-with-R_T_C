@@ -1,0 +1,150 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+.body{
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+.main-cal-screen-container{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: auto;
+}
+.cal-screen{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    background-color: #080808;
+    border: 0;
+}
+.main-cal-screen-container .ans{
+    font-size: 60px;
+    text-align: end;
+    color: white;
+}
+.main-cal-screen-container .opretion{
+    font-size: 30px;
+    text-align: end;
+    color: rgba(255, 255, 255, 0.609);
+}
+.row .fuction-key{
+    background-color: #f69c06;  
+}
+.row .spe-key {
+    background-color: #9d9d9d;
+    color: #000;
+}
+.row .zero-key {
+    width: 160px;
+    padding-left: 10px;
+    text-align: center;
+}
+.row .ac-key{
+    width: 160px;
+    padding-left: 10px;
+    text-align: center
+}
+
+.main-calculator-container{
+    margin: auto;
+    width: 370px;
+    height: 750px;
+    margin-top: 100px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 50px;
+    border: 3px solid #5a6b81;
+    box-shadow: 0px 0px 500px 0px #5a6b81;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .key{
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    border-radius: 200px;
+    border: 0px;
+    font-size: 25px;
+    background-color: #323131;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+.key:hover{
+    background-color: #9a9191ba;
+    transition: 0.5s;
+}
+.fuction-key:hover{
+    background-color:#f59e06b3;
+    transition: 0.5s;
+}
+.spe-key:hover{
+    background-color: #9f9595d2;
+}
+
+/*  */
+
+       .container-app{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: rgb(212, 212, 212);
+        border-radius: 5px;
+       } 
+       .app-screen{
+        display: flex;
+        flex-direction: row;
+       }
+       .btns{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+       }
+       #result{
+        text-align: center;
+        color: white;
+       }
+       .input{
+        margin: 5px ;
+        outline: none;
+        display: inline-block;
+        width: 80px;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Nanum Gothic Coding', monospace;
+       }
+       .btn{
+        display: block;
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 8px;
+        font-family: 'Nanum Gothic Coding', monospace;
+       }
+       .calculet:hover{
+        transition: 1s;
+        box-shadow: 0 0 15px 0 #ffd000
+       }
+       .calculet{
+        background-color: #fcf94f;
+        border: 2px solid #ffd000;
+       }
+       .reset:hover{
+        transition: 1s;
+        box-shadow: 0 0 15px 0 #ffbb00;
+       }
+       .reset{
+        background-color: #ff3d37;
+        border: 2px solid #fcca41;
+       }
