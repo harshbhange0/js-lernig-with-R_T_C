@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./js.js"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+        body{
+        margin: 0;
+        font-family: 'Nanum Gothic Coding', monospace;
+       }</style>
+
+</head>
+<body>
+    <div class="container-app">
+        <div class="app-screen">
+         <input type="text" id="val1" class="input" placeholder="add a value">
+        <input type="text" id="operator" class="input" placeholder="add a operator">
+        <input type="text" id="val2" class="input" placeholder="add a value">   
+        </div>
+        
+        <h1 id="result">SUM OF :</h1>
+        <div class="btns">
+            <button class="btn calculet" onclick="calculateSum()">calculate</button>
+            <button class="btn reset" onclick="reset()">AC</button>
+        </div>
+    </div>
+  
+</body>
+</html>
